@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const activitySelect = document.getElementById("activity");
   const signupForm = document.getElementById("signup-form");
   const messageDiv = document.getElementById("message");
-  const categoryFilter = document.getElementById("category-filter");
+// Removed unused categoryFilter variable declaration
   const sortActivities = document.getElementById("sort-activities");
   const searchInput = document.getElementById("search-activities");
   const clearSearchButton = document.getElementById("clear-search");
