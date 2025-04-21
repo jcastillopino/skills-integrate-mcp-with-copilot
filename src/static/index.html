@@ -6,6 +6,7 @@
     <title>Mergington High School Activities</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="mascot-styles.css" />
+    <link rel="stylesheet" href="toolbar-styles.css" />
   </head>
   <body>
     <header>
@@ -16,6 +17,21 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div class="activities-toolbar">
+          <div class="sort-group">
+            <label for="sort-activities">Sort by:</label>
+            <select id="sort-activities">
+              <option value="name-asc">Name (A-Z)</option>
+              <option value="name-desc">Name (Z-A)</option>
+              <option value="spots-most">Most Spots Available</option>
+              <option value="spots-least">Least Spots Available</option>
+            </select>
+          </div>
+          <div class="search-group">
+            <input type="text" id="search-activities" placeholder="Search activities...">
+            <button id="clear-search" title="Clear search">×</button>
+          </div>
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
