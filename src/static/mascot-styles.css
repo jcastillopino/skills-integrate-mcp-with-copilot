@@ -1,0 +1,40 @@
+/* Mascot gallery styling */
+#mascot-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mascot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.mascot-card {
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.mascot-card:hover {
+  transform: translateY(-5px);
+}
+
+.mascot-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 2px solid limegreen;
+}
+
+.mascot-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
