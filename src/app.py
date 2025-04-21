@@ -77,6 +77,13 @@ activities = {
     }
 }
 
+activities["GitHub Skills"] = {
+    "description": "Learn practical coding and collaboration skills with GitHub",
+    "schedule": "Wednesdays, 3:30 PM - 5:30 PM",
+    "max_participants": 25,
+    "participants": []
+}
+
 
 @app.get("/")
 def root():
